@@ -10,7 +10,7 @@ class RssService {
   final String rssUrl = 'https://www.djjb.de/index.rss';
   
   Future<List<Article>> fetchArticles() async {
-    // Initialisiere die Lokalisierungsdaten für Deutsch
+    // Initialize localization data for German
     await initializeDateFormatting('de_DE', null);
     
     try {
@@ -45,7 +45,7 @@ class RssService {
       final link = _getElementText(item, 'link');
       final pubDateStr = _getElementText(item, 'pubDate');
       
-      // Konvertiere das Datum in deutsches Format
+      // Convert date to German format
       String pubDate = pubDateStr;
       try {
         if (pubDateStr.isNotEmpty) {
@@ -53,7 +53,7 @@ class RssService {
           pubDate = DateFormat('dd.MM.yyyy HH:mm', 'de_DE').format(dateTime);
         }
       } catch (e) {
-        print('Fehler beim Konvertieren des Datums: $e');
+        print('Error converting date: $e');
       }
       
       // Extract description and handle HTML content
