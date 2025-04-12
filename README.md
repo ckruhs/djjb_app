@@ -1,6 +1,6 @@
 # DJJB News App
 
-Eine Flutter-Anwendung zum Lesen von Neuigkeiten des Deutschen Jiu Jitsu Bundes (DJJB).
+Eine Anwendung zum Lesen von Neuigkeiten des Deutschen Jiu Jitsu Bundes (DJJB).
 
 ## Funktionen
 
@@ -31,7 +31,7 @@ Die App wurde mit Flutter entwickelt und nutzt folgende Technologien:
 
 1. Clone das Repository:
    ```
-   git clone [repository-url]
+   git clone https://github.com/ckruhs/djjb_app.git
    ```
 
 2. Navigiere zum Projektverzeichnis:
@@ -63,32 +63,3 @@ Die App wurde mit Flutter entwickelt und nutzt folgende Technologien:
 - **Entwickelt mit**: Flutter 3.29.2, Dart 3.7.2
 - **Kompatibilität**: iOS 11+, Android 5.0+, macOS 10.14+, Web (moderne Browser)
 - **Repository**: https://github.com/ckruhs/djjb_app
-
-## Lizenz
-
-Diese App steht unter der MIT-Lizenz.
-
-```
-MIT License
-
-Copyright (c) ckruhs
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
